@@ -1,11 +1,13 @@
-@extends('layouts.app')
+@extends('layouts.loginapp')
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
+    <div align="center" class="loginsty" style="margin-top: 100px">        
+    <h1 style="margin-top: 0px;margin-bottom: 0px;">ACL</h1>
+    <div class="row justify-content-center" >
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+            <div class="card" >
+                <div class="card-header" style="background-color: cadetblue;">{{ __('Login') }} </div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -64,8 +66,10 @@
                         </div>
                     </form>
                 </div>
+                <div class="card-footer" style="background-color: cadetblue;"></div>
             </div>
         </div>
+    </div>
     </div>
 </div>
 @endsection
