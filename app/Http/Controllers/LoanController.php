@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class WarehouseController extends Controller
+class LoanController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class WarehouseController extends Controller
      */
     public function index()
     {
-        return view('warehouse.stock.index');
+        //
     }
 
     /**
@@ -23,7 +23,7 @@ class WarehouseController extends Controller
      */
     public function create()
     {
-        return view('warehouse.stock.create');
+        return view('warehouse.loan.create');
     }
 
     /**

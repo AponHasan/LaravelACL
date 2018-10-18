@@ -31,6 +31,17 @@
         <!-- END THEME LAYOUT STYLES -->
         <link rel="shortcut icon" href="favicon.ico" /> </head>
     <!-- END HEAD -->
+
+
+
+
+    
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 </head>
 <body class="page-header-fixed">
     <div id="app">
@@ -99,22 +110,32 @@
                          <!-- Sub menu -->
                          <ul>
                             <li><a href="/warehouse/create">Stock</a></li>
-                            <li><a href="#">Loan</a></li>
+                            <li><a href="/loan/create">Loan</a></li>
                         </ul>
                     </li>
                     <li><a href="#"><i class="glyphicon glyphicon-stats"></i> Accounts </a></li>
-                    <li><a href="#"><i class="glyphicon glyphicon-record"></i> Employee</a></li>
-                    <li><a href="#"><i class="glyphicon glyphicon-pencil"></i> H.R Admin</a></li>
-                    <li><a href="#"><i class="glyphicon glyphicon-tasks"></i> Profile</a></li>
                     <li class="submenu">
                          <a href="#">
-                            <i class="glyphicon glyphicon-list"></i> Pages
+                            <i class="glyphicon glyphicon-list"></i> H.R Admin
                             <span class="caret pull-right"></span>
                          </a>
                          <!-- Sub menu -->
                          <ul>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Signup</a></li>
+                            <li><a href="#">Employee</a></li>
+                            <li><a href="#">Salary</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="glyphicon glyphicon-tasks"></i> Profile</a></li>
+                    <li class="submenu">
+                         <a href="#">
+                            <i class="glyphicon glyphicon-list"></i> Settings
+                            <span class="caret pull-right"></span>
+                         </a>
+                         <!-- Sub menu -->
+                         <ul>
+                            <li><a href="#">User Role</a></li>
+                            <li><a href="#">Manage</a></li>
+                            <li><a href="#">Invoice Number</a></li>
                         </ul>
                     </li>
                 </ul>
