@@ -2,19 +2,8 @@
 
 @section('content')
 <div class="container">
-    <div class="loginsty" style="margin-top: 50px">        
-    <!-- <h1  align="center" style="margin-top: 0px;margin-bottom: 0px;">ACL</h1> -->
-    <div class="row">
-        <div class="col-md-5">
-            
-        </div>
-        <div class="col-md-4">
-            <img align="center" src="{{URL::asset('logo4.png')}}" >
-        </div>
-        <div class="col-md-3">
-            
-        </div>
-    </div>
+    <div align="center" class="loginsty" style="margin-top: 100px">        
+    <h1 style="margin-top: 0px;margin-bottom: 0px;">ACL</h1>
     <div class="row justify-content-center" >
         <div class="col-md-8">
             <div class="card" >
@@ -59,9 +48,6 @@
 
                                     <label class="form-check-label" for="remember">
                                         {{ __('Remember Me') }}
-                                        <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    {{ __('Forgot Your Password?') }}
-                                </a>
                                     </label>
                                 </div>
                             </div>
@@ -69,12 +55,14 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button style="    width: 85px;" type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
                                 </button>
-                                <a style="margin-left: 25px;" class="btn btn-warning" href="{{ route('register') }}">Register</a>
+
+                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                    {{ __('Forgot Your Password?') }}
+                                </a>
                             </div>
-                            
                         </div>
                     </form>
                 </div>
