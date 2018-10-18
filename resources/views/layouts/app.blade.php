@@ -60,12 +60,12 @@
                       <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
                         <ul class="nav navbar-nav">
                           <li class="nav-item dropdown">
-                                <a id="navbarDropdown" style="color: #fff" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <a id="navbarDropdown" style="color: #fff;padding-top: 4px;" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} 
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                    <a class="dropdown-item btn btn-danger btn-sm" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
@@ -90,13 +90,22 @@
             <div class="sidebar content-box" style="display: block;">
                 <ul class="nav">
                     <!-- Main menu -->
-                    <li class="current"><a href="index.html"><i class="glyphicon glyphicon-home"></i> Dashboard</a></li>
-                    <li><a href="calendar.html"><i class="glyphicon glyphicon-calendar"></i> Calendar</a></li>
-                    <li><a href="stats.html"><i class="glyphicon glyphicon-stats"></i> Statistics (Charts)</a></li>
-                    <li><a href="tables.html"><i class="glyphicon glyphicon-list"></i> Tables</a></li>
-                    <li><a href="buttons.html"><i class="glyphicon glyphicon-record"></i> Buttons</a></li>
-                    <li><a href="editors.html"><i class="glyphicon glyphicon-pencil"></i> Editors</a></li>
-                    <li><a href="forms.html"><i class="glyphicon glyphicon-tasks"></i> Forms</a></li>
+                    <li class="current"><a href="/home"><i class="glyphicon glyphicon-home"></i> Dashboard</a></li>
+                    <li class="submenu">
+                         <a href="#">
+                            <i class="glyphicon glyphicon-list"></i> WareHouse
+                            <span class="caret pull-right"></span>
+                         </a>
+                         <!-- Sub menu -->
+                         <ul>
+                            <li><a href="/warehouse/create">Stock</a></li>
+                            <li><a href="#">Loan</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="glyphicon glyphicon-stats"></i> Accounts </a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-record"></i> Employee</a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-pencil"></i> H.R Admin</a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-tasks"></i> Profile</a></li>
                     <li class="submenu">
                          <a href="#">
                             <i class="glyphicon glyphicon-list"></i> Pages
@@ -104,8 +113,8 @@
                          </a>
                          <!-- Sub menu -->
                          <ul>
-                            <li><a href="login.html">Login</a></li>
-                            <li><a href="signup.html">Signup</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Signup</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -125,8 +134,8 @@
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://code.jquery.com/jquery.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script src="js/custom.js"></script>
+        <script src="{{asset('bootstrap/js/bootstrap.min.js')}}"></script>
+        <script src="{{asset('js/custom.js')}}"></script>
         @yield('script')
     </div>                                      
 </body>
