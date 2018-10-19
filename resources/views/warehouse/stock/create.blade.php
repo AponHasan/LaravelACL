@@ -10,11 +10,11 @@
                		<div class="content-box-large">
 			  				<div class="panel-heading">				           				          
 					            <div class="panel-options">
-					              <a href="#" data-rel="collapse"><i class="glyphicon glyphicon-refresh"></i></a>
-					              <a href="#" data-rel="reload"><i class="glyphicon glyphicon-cog"></i></a>
+					              <a href="/warehouse" class=" btn btn-warning btn-sm ">Stock List </a>
 					            </div>
 					        </div>
 			  				<div class="panel-body">
+			  					
 			  					<form class="form-horizontal" role="form">
 
 								  <div class="form-group">

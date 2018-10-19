@@ -10,8 +10,7 @@
                		<div class="content-box-large">
 			  				<div class="panel-heading">				           				          
 					            <div class="panel-options">
-					              <a href="#" data-rel="collapse"><i class="glyphicon glyphicon-refresh"></i></a>
-					              <a href="#" data-rel="reload"><i class="glyphicon glyphicon-cog"></i></a>
+					              <a href="/loan" class=" btn btn-warning btn-sm ">Loan List </a>
 					            </div>
 					        </div>
 			  				<div class="panel-body">
@@ -39,7 +38,7 @@
 								  <div class="form-group">
 								    <label for="inputPassword3" class="col-sm-2 control-label">Loan Amount</label>
 								    <div class="col-sm-5">
-								      <input type="text" class="form-control" id="inputPassword3" placeholder="Enter Product Quantity">
+								      <input type="text" class="form-control" id="inputPassword3" placeholder="Enter Product Loan Amount">
 								    </div>
 								    <div class="col-sm-4">
 								      <div class="form-check form-check-inline">
@@ -59,7 +58,7 @@
 								  <div class="form-group">
 								    <label for="inputPassword3" class="col-sm-2 control-label">Loan Cost</label>
 								    <div class="col-sm-8">
-								      <input type="number" class="form-control" id="inputPassword3" placeholder="Enter Product Price">
+								      <input type="number" class="form-control" id="inputPassword3" placeholder="Enter Loan Cost">
 								    </div>								 
 								  </div>							 
 								  <div class="form-group">

@@ -41,7 +41,7 @@
 <!------ Include the above in your HEAD tag ---------->
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+
 </head>
 <body class="page-header-fixed">
     <div id="app">
@@ -109,8 +109,8 @@
                          </a>
                          <!-- Sub menu -->
                          <ul>
-                            <li><a href="/warehouse/create">Stock</a></li>
-                            <li><a href="/loan/create">Loan</a></li>
+                            <li><a href="/warehouse">Stock</a></li>
+                            <li><a href="/loan">Loan</a></li>
                         </ul>
                     </li>
                     <li><a href="#"><i class="glyphicon glyphicon-stats"></i> Accounts </a></li>

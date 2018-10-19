@@ -9,10 +9,10 @@
                 <div class="card-body">
 		
         <div class=col-md-10>
-        <h4>All Stocks</h4>
+        <h4>All Loan Details</h4>
         </div>
         <div class=col-md-2>
-        <a href="/warehouse/create" style="width: 35px" class=" btn btn-success btn-sm glyphicon glyphicon-plus"> </a>
+        <a href="/loan/create" style="width: 35px" class=" btn btn-success btn-sm glyphicon glyphicon-plus"> </a>
         </div>
         <div class="col-md-12">
         
@@ -26,9 +26,8 @@
                    <th><input type="checkbox" id="checkall" /></th>
                    <th>Product Type</th>
                     <th>Product Name</th>
-                     <th>Quantity</th>
-                     <th>Price</th>
-                     <th>Supplire</th>
+                     <th>Loan Amount</th>
+                     <th>Loan Cost</th>                     
                       <th>Edit</th>                      
                        <th>Delete</th>
                    </thead>
@@ -40,7 +39,6 @@
     <td>Product Name 1</td>
     <td>100 Pitch</td>
     <td>56456</td>
-    <td>+923335586757</td>
     <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
     </tr>
@@ -51,7 +49,6 @@
     <td>Product Name 2</td>
     <td>100 Metar</td>
     <td>456456</td>
-    <td>+923335586757</td>
     <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
     </tr>
@@ -59,11 +56,10 @@
     
  <tr>
     <td><input type="checkbox" class="checkthis" /></td>
-    <td style="background-color: red;color: #fff">Product Type 3</td>
-    <td style="background-color: red;color: #fff">Product Name 3</td>
-    <td style="background-color: red;color: #fff">10 Metar</td>
-    <td style="background-color: red;color: #fff">4645</td>
-    <td style="background-color: red;color: #fff">+923335586757</td>
+    <td >Product Type 3</td>
+    <td >Product Name 3</td>
+    <td >10 Metar</td>
+    <td >4645</td>
     <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
     </tr>
@@ -76,7 +72,6 @@
     <td>Product Name 4</td>
     <td>60 KG</td>
     <td>45645</td>
-    <td>+923335586757</td>
     <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
     </tr>
@@ -84,11 +79,10 @@
     
  <tr>
     <td><input type="checkbox" class="checkthis" /></td>
-    <td style="background-color: #f5de15;">Product Type 5</td>
-    <td style="background-color: #f5de15;">Product Name 5</td>
-    <td style="background-color: #f5de15;">20 KG</td>
-    <td style="background-color: #f5de15;">456446</td>
-    <td style="background-color: #f5de15;">+923335586757</td>
+    <td >Product Type 5</td>
+    <td >Product Name 5</td>
+    <td >20 KG</td>
+    <td >456446</td>
     <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
     </tr>
