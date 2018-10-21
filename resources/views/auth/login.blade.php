@@ -72,7 +72,7 @@
                                 <button style="    width: 85px;" type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
                                 </button>
-                                <a style="margin-left: 25px;" class="btn btn-warning" href="{{ route('register') }}">Register</a>
+                                <a style="margin-left: 25px;" class="" href="{{ route('register') }}">Register Here</a>
                             </div>
                             
                         </div>

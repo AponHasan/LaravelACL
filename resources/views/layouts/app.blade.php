@@ -28,7 +28,7 @@
     <link href="{{asset('css/styles.css')}}" rel="stylesheet">
     
     <!-- END THEME LAYOUT STYLES -->
-    <link rel="shortcut icon" href="favicon.ico" /> </head>
+    <link rel="shortcut icon" href="favicon.ico" />
     <!-- END HEAD -->
 
     <!-- Deshboard -->
@@ -78,6 +78,16 @@
                   <div class="navbar navbar-inverse" role="banner">
                       <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
                         <ul class="nav navbar-nav">
+                            @guest
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        </li>
+                        <li class="nav-item">
+                                @if (Route::has('register'))
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                @endif
+                            </li>
+                            @else
                           <li class="nav-item dropdown">
                                 <a id="navbarDropdown" style="color: #fff;padding-top: 4px;" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} 
@@ -94,7 +104,8 @@
                                         @csrf
                                     </form>
                                 </div>                            
-                            </li>                            
+                            </li> 
+                            @endguest                           
                         </ul>
                       </nav>
                   </div>
@@ -129,8 +140,8 @@
                          </a>
                          <!-- Sub menu -->
                          <ul>
-                            <li><a href="#">Employee</a></li>
-                            <li><a href="#">Salary</a></li>
+                            <li><a href="/employee">Employee</a></li>
+                            <li><a href="/salary">Salary</a></li>
                         </ul>
                     </li>
                     <li><a href="#"><i class="glyphicon glyphicon-tasks"></i> Profile</a></li>
@@ -157,15 +168,16 @@
         </div>
     </div>
 
-    
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     @yield('script')
+        
+       
+    </div>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://code.jquery.com/jquery.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="{{asset('bootstrap/js/bootstrap.min.js')}}"></script>
-        <script src="{{asset('js/custom.js')}}"></script>
-        @yield('script')
-    </div>                                      
+        <script src="{{asset('js/custom.js')}}"></script>                                    
 </body>
 </html>

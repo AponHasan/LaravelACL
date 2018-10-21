@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class LoanController extends Controller
+class EmployeeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,7 +17,7 @@ class LoanController extends Controller
     }
     public function index()
     {
-        return view('warehouse.loan.index');
+        return view('hradmin.employee.index');
     }
 
     /**
@@ -27,7 +27,7 @@ class LoanController extends Controller
      */
     public function create()
     {
-        return view('warehouse.loan.create');
+        return view('hradmin.employee.create');
     }
 
     /**
