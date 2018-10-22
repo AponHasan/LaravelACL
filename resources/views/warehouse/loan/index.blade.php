@@ -32,7 +32,7 @@
                       <td><input type="checkbox" class="checkthis" /></td>
                       <td>Product Type 1</td>
                       <td>Product Name 1</td>
-                      <td>100 Pitch</td>
+                      <td>100 Piece</td>
                       <td>56456</td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
@@ -42,7 +42,7 @@
                       <td><input type="checkbox" class="checkthis" /></td>
                       <td>Product Type 2</td>
                       <td>Product Name 2</td>
-                      <td>100 Metar</td>
+                      <td>100 Meter</td>
                       <td>456456</td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
@@ -53,7 +53,7 @@
                       <td><input type="checkbox" class="checkthis" /></td>
                       <td >Product Type 3</td>
                       <td >Product Name 3</td>
-                      <td >10 Metar</td>
+                      <td >10 Meter</td>
                       <td >4645</td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
