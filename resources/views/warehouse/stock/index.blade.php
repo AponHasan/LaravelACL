@@ -103,20 +103,20 @@
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
-                             <h4 align="left" class="modal-title custom_align" id="Heading">Edit Your Detail</h4>
+                             <h4 align="left" class="modal-title custom_align" id="Heading">Edit Stock Detail</h4>
                               <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
                              
                           </div>
                           <div class="modal-body">
                             <div class="form-group">
                              <select style="height: 35px" class="form-control">
-                        <option>Select Product type</option>
-                      <option>Product 1</option>
-                      <option>Product 2</option>
-                      <option>Product 3</option>
-                      <option>Product 4</option>
-                      <option>Product 5</option>
-                    </select>
+                                <option>Select Product type</option>
+                                <option>Product 1</option>
+                                <option>Product 2</option>
+                                <option>Product 3</option>
+                                <option>Product 4</option>
+                                <option>Product 5</option>
+                            </select>
                             </div>
                             <div class="form-group">        
                                <input type="text" class="form-control" id="inputPassword3" placeholder="Enter Product Name">
