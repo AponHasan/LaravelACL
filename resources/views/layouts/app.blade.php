@@ -59,7 +59,9 @@
                <div class="col-md-5">
                   
                   <div class="logo">
+                    <a href="/home">
                      <img  src="{{URL::asset('logo4.png')}}" height="50px" >
+                     </a>
                   </div>
                </div>
                <div class="col-md-5">

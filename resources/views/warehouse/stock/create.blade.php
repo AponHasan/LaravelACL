@@ -61,28 +61,7 @@
 								    <div class="col-sm-8">
 								      <input type="number" class="form-control" id="inputPassword3" placeholder="Enter Product Price">
 								    </div>
-								    <!-- <div class="col-sm-6">
-								      <div class="form-check form-check-inline">
-										  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-										  <label class="form-check-label" for="inlineRadio1">BDT</label>
-										</div>
-										<div class="form-check form-check-inline">
-										  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-										  <label class="form-check-label" for="inlineRadio2">USD</label>
-										</div>
-										<div class="form-check form-check-inline">
-										  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-										  <label class="form-check-label" for="inlineRadio3">RS</label>
-										</div>
-										<div class="form-check form-check-inline">
-										  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-										  <label class="form-check-label" for="inlineRadio3">EUR</label>
-										</div>
-										<div class="form-check form-check-inline">
-										  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-										  <label class="form-check-label" for="inlineRadio3">AED</label>
-										</div>
-								    </div> -->
+								  
 								  </div>
 								  
 								  <div class="form-group">
