@@ -15,7 +15,6 @@
 					        </div>
 			  				<div class="panel-body">
 			  					<form class="form-horizontal" role="form">
-
 								  <div class="form-group">
 								    <label for="inputEmail3" class="col-sm-2 control-label">Product Type</label>
 								    <div class="col-sm-8">

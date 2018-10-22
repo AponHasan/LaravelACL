@@ -99,19 +99,42 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
-                  <h4 class="modal-title custom_align" id="Heading">Edit Your Detail</h4>
+                <h4 align="left" class="modal-title custom_align" id="Heading">Edit Loan Detail</h4>
+                  <button type="button" class="close" data-dismiss="modal" id="edit_data" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+                  
               </div>
               <div class="modal-body">
                 <div class="form-group">
-                  <input class="form-control " type="text" placeholder="Mohsin">
+                 <select style="height: 35px" class="form-control">
+                        <option>Select Product type</option>
+                      <option>Product 1</option>
+                      <option>Product 2</option>
+                      <option>Product 3</option>
+                      <option>Product 4</option>
+                      <option>Product 5</option>
+                    </select>
                 </div>
                 <div class="form-group">        
-                  <input class="form-control " type="text" placeholder="Irshad">
+                  <input type="text" class="form-control" id="inputPassword3" placeholder="Enter Product Name">
                 </div>
                 <div class="form-group">
-                  <textarea rows="2" class="form-control" placeholder="CB 106/107 Street # 11 Wah Cantt Islamabad Pakistan"></textarea>        
+                   <input type="text" class="form-control" id="inputPassword3" placeholder="Enter Product Loan Amount">        
                 </div>
+                <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label" for="inlineRadio1">KG</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">Piece</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                      <label class="form-check-label" for="inlineRadio3">Meter</label>
+                    </div>
+                   
+                      <input type="number" class="form-control" id="inputPassword3" placeholder="Enter Loan Cost">
+                    
               </div>
               <div class="modal-footer ">
                   <button type="button" class="btn btn-warning btn-lg" style="width: 100%;"><span class="glyphicon glyphicon-ok-sign"></span> Update</button>
@@ -126,8 +149,9 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
+             <h4 align="left" class="modal-title custom_align" id="Heading">Delete this entry</h4>
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
-              <h4 class="modal-title custom_align" id="Heading">Delete this entry</h4>
+             
           </div>
           <div class="modal-body">       
             <div class="alert alert-danger">
@@ -166,6 +190,8 @@ $("#mytable #checkall").click(function () {
     
     $("[data-toggle=tooltip]").tooltip();
 });
+
+  
 
 </script>
 @endsection
